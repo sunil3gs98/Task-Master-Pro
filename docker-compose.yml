@@ -21,3 +21,8 @@ services:
       MYSQL_DATABASE: task
       MYSQL_USER: admin
       MYSQL_PASSWORD: root
+      volumes:
+      - db_data:/var/lib/mysql
+        
+volumes:
+  db_data:
