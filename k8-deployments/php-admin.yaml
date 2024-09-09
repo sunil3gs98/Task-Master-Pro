@@ -20,7 +20,7 @@ spec:
             - containerPort: 80
           env:
             - name: PMA_HOST
-              value: santa-db-service
+              value: task-db-service
             - name: PMA_USER
               value: admin
             - name: PMA_PASSWORD
